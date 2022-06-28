@@ -7,9 +7,15 @@ Using deep learning to identify the architectural styles of buildings
 
 Reach out. What do you see?
 
-![Alt text](README_images/luke_rey_training?raw=true "Jedi training scene")
-(<a href="https://www.mouseplanet.com/gallery/v/PersonalContributions/toddking/lastjedi/star-wars-last-jedi-luke-trains-rey-reach-out-rolls-eyes.jpg.html">Image Source</a>) ![Alt text](README_images/Cristo_Rey_Church?raw=true "Cristo Rey Church")
-(<a href="https://sah-archipedia.org/buildings/NM-01-049-0178">Image Source</a>)
+<!--![Alt text](README_images/luke_rey_training.jpeg?raw=true "Jedi training scene")
+(<a href="https://www.mouseplanet.com/gallery/v/PersonalContributions/toddking/lastjedi/star-wars-last-jedi-luke-trains-rey-reach-out-rolls-eyes.jpg.html">Image Source</a>) --> 
+
+<img src="README_images/luke_rey_training.jpeg" width="500" height="250"> <img src="README_images/Cristo_Rey_Church.jpeg" width="500" height="300">
+
+(<a href="https://www.mouseplanet.com/gallery/v/PersonalContributions/toddking/lastjedi/star-wars-last-jedi-luke-trains-rey-reach-out-rolls-eyes.jpg.html">Image Source</a>)
+
+<!--![Alt text](README_images/Cristo_Rey_Church.jpeg?raw=true "Cristo Rey Church")
+(<a href="https://sah-archipedia.org/buildings/NM-01-049-0178">Image Source</a>) -->
 
 Pueblo-style architecture
 
