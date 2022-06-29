@@ -17,7 +17,7 @@ Reach out. What do you see?
 
 The *shallow* response: a church.
 
-(A *better* response: God/The Force.)
+(A better response: God.)
 
 The *deep* response: a church designed in the **Pueblo Revival style**.
 
