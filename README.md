@@ -25,7 +25,7 @@ Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catho
 
 This, hopefully, illustrates why knowing the architectural style of a building is valuable. **The architectural style of a building can often give us a glimpse of the rich history and cultural heritage of a place!**
 
-> On the practical side of things, having such knowledge could impress your date too ;)
+> On the practical side of things, having such knowledge could impress your date too...
 
 The quote below provides a very nice elaboration:
 
@@ -45,6 +45,9 @@ Therefore, our team sought to develop a multi-class convolutional neural network
 We used 10,113 images of buildings from 25 architectural styles (class labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
 
 The images were a mix of images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper </a>.
+
+<img src="README_images/data_snippet.jpg" width="700" height="400">
+*A snippet of the dataset*
 
 We also performed data augmentation (i.e., making slight modifications to images, such as rotations, to generate more synthetic data). This is a regularization technique that can help reduce overfitting when training our model later.
 
