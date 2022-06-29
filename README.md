@@ -33,17 +33,39 @@ Develop a multi-class convolutional neural network (CNN) model that can identify
 
 ## Methodology
 
-ResNet-18 
+
+### Dataset
+
+We used 10,113 images from 25 architectural styles
+
+It is a mixed between images scraped from Google Images and the dataset from the paper "Architectural Style Classification using Multinomial Latent Logistic Regression" (ECCV2014), made by Zhe Xu.
+(<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
 
 
-### Datasets
+### Model
 
-Data
+ResNet-18
+
+> Lightweight
+
+Data Augmentation (image flipping)
+
+Cyclic Learning Rate
+
+> Changing the learning rate periodically for stochastic gradient descent can improve performance while also cutting down on training time. 
 
 
 ## Results
 
-It worked
+It worked.
+
+### Accuracy vs epoch count
+
+*Insert graph here*
+
+### Training Loss vs epoch count
+
+*Insert graph here*
 
 
 ## Conclusion
