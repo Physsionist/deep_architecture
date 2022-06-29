@@ -17,11 +17,17 @@ Reach out. What do you see?
 
 The *shallow* response: a church.
 
-(A *better* response: God/The Force)
+(A *better* response: God/The Force.)
 
-Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catholic church in Santa Fe, New Mexico. Besides being potentially the largest building made of [adobe](https://en.wikipedia.org/wiki/Adobe) in the United States, it was also designed in the **Pueblo Revival style** –– an architectural style that draws inspiration from New Mexico's historic Spanish missions. In fact, this church is just one of many buildings in Santa Fe designed in the Pueblo Revival style, paying homage to the city's Pueblo and Spanish roots. 
+The *deep* response: a church designed in the **Pueblo Revival style**.
 
-This, hopefully, illustrates why knowing the architectural style of a building is valuable. Architecture exists not just to create the physical environment in which people live, but also reflect the cultural heritage of a place. The architectural style of a building can often give us a glimpse of the rich history of a place. (On the practical side of things, having such knowledge could impress your date too!)
+Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catholic church in Santa Fe, New Mexico. Besides being potentially the largest building made of [adobe](https://en.wikipedia.org/wiki/Adobe) in the United States, it was also designed in the Pueblo Revival style –– an architectural style that draws inspiration from New Mexico's historic Spanish missions. In fact, this church is just one of many buildings in Santa Fe designed in the Pueblo Revival style, paying homage to the city's Pueblo and Spanish roots. 
+
+This, hopefully, illustrates why knowing the architectural style of a building is valuable. The architectural style of a building can often give us a glimpse of the rich history and cultural heritage of a place.
+
+> On the practical side of things, having such knowledge could impress your date too!
+
+The quote below provides a very nice elaboration:
 
 > "An architect once told me: When you learn about ancient cultures, the first thing people point to is their architecture, because it’s so expressive of who they were. The example they used was ancient Egypt. Take a look at the pyramids and the Sphinx, and you’ll get a good idea of how they regarded their rulers, their religion, and the qualities of the land that they drew their building materials from. The towering feats of delicate, narrative stone masonry that made up Gothic architecture, emerging in Europe in the Middle Ages, was a perfect counterpoint to its age of reverence verging on fear of divinity, during a period of grim instability. The Industrial Revolution, which re-organized the world along rational standards of machine production, inevitably birthed Modernism, which used mass-produced steel and glass to replicate this emerging order in cities. All revolutions, especially political ones, turn to architecture immediately to create their most prominent monuments. And this ability of architecture to explain its age happens whether a building is an elaborate showpiece or a banal standby." (<a href="https://studyarchitecture.com/blog/architecture-news/why-architecture-is-important/"> Source</a>)
 
