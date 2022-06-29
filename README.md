@@ -15,11 +15,11 @@ Reach out. What do you see?
 
 <!-- (<a href="https://sah-archipedia.org/buildings/NM-01-049-0178">Image Source</a>) -->
 
-The *uncultured* response: a church.
+The *shallow* response: a church.
 
-(A *better* response: God.)
+(A *better* response: God/The Force)
 
-Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catholic church in Santa Fe, New Mexico. Besides being potentially the largest building made of [adobe](https://en.wikipedia.org/wiki/Adobe) in the United States, it was also designed in the Pueblo Revival style –– an architectural style that draws inspiration from New Mexico's historic Spanish missions. In fact, this church is just one of many buildings in Santa Fe designed in the Pueblo Revival style, paying homage to the city's Pueblo and Spanish roots. 
+Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catholic church in Santa Fe, New Mexico. Besides being potentially the largest building made of [adobe](https://en.wikipedia.org/wiki/Adobe) in the United States, it was also designed in the **Pueblo Revival style** –– an architectural style that draws inspiration from New Mexico's historic Spanish missions. In fact, this church is just one of many buildings in Santa Fe designed in the Pueblo Revival style, paying homage to the city's Pueblo and Spanish roots. 
 
 This, hopefully, illustrates why knowing the architectural style of a building is valuable. Architecture exists not just to create the physical environment in which people live, but also reflect the cultural heritage of a place. The architectural style of a building can often give us a glimpse of the rich history of a place. (On the practical side of things, having such knowledge could impress your date too!)
 
