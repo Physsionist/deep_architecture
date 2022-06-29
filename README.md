@@ -36,18 +36,21 @@ Develop a multi-class convolutional neural network (CNN) model that can identify
 
 ### Dataset
 
-We used 10,113 images of buildings that could be classified under 25 architectural styles (labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
+We used 10,113 images of buildings from 25 architectural styles (class labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
 
-It is a mix between images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper </a>.
+The images were a mix of images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper </a>.
+
+We also performed data augmentation (i.e., making slight modifications to images, such as rotations, to generate more synthetic data). This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
 
-ResNet-18
+We used the ResNet-18 CNN model. 
 
-> Lightweight
+> *Rationale:* Deeper neural networks are more difficult to train. Residual learning can help ease the training of networks that are substantially deeper than those used previously. In residual learning, the layers in a CNN are reformulated as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. Empirical evidence suggests that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. 
 
-Data Augmentation (image flipping)
+
+### Training Procedure
 
 Cyclic Learning Rate
 
