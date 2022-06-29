@@ -36,10 +36,9 @@ Develop a multi-class convolutional neural network (CNN) model that can identify
 
 ### Dataset
 
-We used 10,113 images from 25 architectural styles
+We used 10,113 images of buildings that could be classified under 25 architectural styles (labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
 
-It is a mixed between images scraped from Google Images and the dataset from the paper "Architectural Style Classification using Multinomial Latent Logistic Regression" (ECCV2014), made by Zhe Xu.
-(<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
+It is a mix between images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper </a>.
 
 
 ### Model
