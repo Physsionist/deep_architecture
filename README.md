@@ -60,7 +60,7 @@ We used the ResNet-18 CNN model.
 
 Cyclic Learning Rate
 
-> Changing the learning rate periodically for stochastic gradient descent can improve performance while also cutting down on training time. 
+> *Rationale:* Changing the learning rate periodically for stochastic gradient descent can improve performance while also cutting down on training time. 
 
 
 ## Results
