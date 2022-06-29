@@ -34,7 +34,7 @@ The quote below provides a very nice elaboration:
 
 ### Goal
 
-Develop a multi-class convolutional neural network (CNN) model that can identify the architectural style of a building, if given an image of said building.
+Therefore, our team sought to develop a multi-class convolutional neural network (CNN) model that can identify the architectural style of a building, if given an image of said building.
 
 
 ## Methodology
@@ -78,7 +78,7 @@ It worked.
 
 ## Conclusion
 
-Identifying the architectural style of a building is a fun and meaningful activity. We should develop a Pokemon Go equivalent for it!
+Identifying the architectural style of a building can be a fun and meaningful activity, since it can satisfy our natural curiosity about the past. A possible extension of this project could be to incorporate our trained model into a building architecture discovery application -- similar to other applications such as Pokemon Go (pokemon discovery) and <a href="https://apps.apple.com/us/app/shazam-music-discovery/id284993459"> Shazam</a> (music discovery).
 
 
 <!-- **Requirements**
