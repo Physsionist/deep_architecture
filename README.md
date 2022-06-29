@@ -23,9 +23,9 @@ The *deep* response: a church designed in the **Pueblo Revival style**.
 
 Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catholic church in Santa Fe, New Mexico. Besides being potentially the largest building made of [adobe](https://en.wikipedia.org/wiki/Adobe) in the United States, it was also designed in the Pueblo Revival style –– an architectural style that draws inspiration from New Mexico's historic Spanish missions. In fact, this church is just one of many buildings in Santa Fe designed in the Pueblo Revival style, paying homage to the city's Pueblo and Spanish roots. 
 
-This, hopefully, illustrates why knowing the architectural style of a building is valuable. The architectural style of a building can often give us a glimpse of the rich history and cultural heritage of a place.
+This, hopefully, illustrates why knowing the architectural style of a building is valuable. **The architectural style of a building can often give us a glimpse of the rich history and cultural heritage of a place!**
 
-> On the practical side of things, having such knowledge could impress your date too!
+> On the practical side of things, having such knowledge could impress your date too ;)
 
 The quote below provides a very nice elaboration:
 
