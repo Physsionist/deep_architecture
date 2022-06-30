@@ -68,7 +68,7 @@ We used the ResNet-18 CNN model.
 
 We initialized the parameters of our model in three (or two, really) ways:
 
-1. Froze *some* layers from a pretrained model
+1. Froze *some* layers (all except the last) from a pretrained model
 
 > This would reduce the training time without losing too much accuracy. (Similar to drop-out, which has been shown empirically to accelerate and improve the efficiency of the training process without having every layer in a neural network to be trained.)
 
