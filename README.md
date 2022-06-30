@@ -102,7 +102,9 @@ As the plots below show, our trained model yielded decent values on metrics on t
 
 <img src="README_images/model_train_val_accuracy.jpg" width="600" height="300">
 
-The accuracy of the fine-tuned model (~ 85%) is higher than that of the model with partially frozen weights (~ 80%). This is not unexpected –– the real question is whether the ~ 5% reduction in accuracy is a significant trade-off, considering that the latter model trained much faster (~ 6 minutes per epoch vs ~ 3 minutes per epoch).
+The accuracy of the fine-tuned model (~ 85%) is higher than that of the model with partially frozen weights (~ 80%). This is not unexpected –– the real question is whether the ~ 5% reduction in accuracy is a worthwhile trade-off.  We say yes considering that the fine tuned model only seemed to take twice as long to train (~ 6 minutes per epoch vs ~ 3 minutes per epoch).  
+
+Both models acheived fairly high accuracy for a small-scale computer vision multiclassification problem.  In an earlier attempted model with 25 classes, we were only able to acheive 50% accuracy but given the scale our work we don't see this as a huge negative either.  Instead, seeing as we can achieve high accuracy on a smaller problem, shows potential to achieve higher accuracy given more data (and a possible deeper model?).  
 
 
 ### Training Loss vs epoch count
