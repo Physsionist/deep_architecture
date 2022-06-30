@@ -104,7 +104,7 @@ As the plots below show, our trained model yielded decent values on metrics on t
 
 The accuracy of the fine-tuned model (~ 85%) is higher than that of the model with partially frozen weights (~ 80%). This is not surprising –– the real question is whether the ~ 5% reduction in accuracy is a worthwhile trade-off.  We say yes considering that the fine-tuned model only seemed to take twice as long to train (~ 6 minutes per epoch vs ~ 3 minutes per epoch).  
 
-Both models achieved fairly high accuracy levels for a small-scale computer vision multi-class classification problem.  In an earlier attempted model with 25 classes, we were only able to achieve 50% accuracy (given the scale our work, we don't see this as a huge negative either).  This suggests that we could potentially achieve even higher accuracy levels if provided more data (and a deeper model, possibly).  
+Both models achieved fairly high accuracy levels for a small-scale multi-class image classification problem.  In an earlier attempted model with 25 classes, we were only able to achieve 50% accuracy (given the scale our work, we don't see this as a huge negative either).  This suggests that we could potentially achieve even higher accuracy levels if provided more data (and a deeper model, possibly).  
 
 
 ### Training Loss vs epoch count
@@ -114,7 +114,7 @@ Both models achieved fairly high accuracy levels for a small-scale computer visi
 
 ## Conclusion
 
-Identifying the architectural style of a building can be a fun and meaningful activity, since it can satisfy our natural curiosity about the past. A possible extension of this project could be to incorporate our trained model into a building architecture discovery application -- similar to other applications such as Pokemon Go (pokemon discovery) and <a href="https://apps.apple.com/us/app/shazam-music-discovery/id284993459"> Shazam</a> (music discovery).
+Identifying the architectural style of a building can be a fun and meaningful activity, since it can satisfy our natural curiosity about the past. A possible extension of this project could be to incorporate our trained model into a building architecture discovery application –– similar to other applications such as Pokemon Go (pokemon discovery) and <a href="https://apps.apple.com/us/app/shazam-music-discovery/id284993459"> Shazam</a> (music discovery).
 
 
 <!-- **Requirements**
