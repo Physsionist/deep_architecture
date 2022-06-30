@@ -25,11 +25,11 @@ Jokes aside, the picture on the right shows the Cristo Rey Church, a Roman Catho
 
 This, hopefully, illustrates why knowing the architectural style of a building is valuable. **The architectural style of a building can often give us a glimpse of the rich history and cultural heritage of a place!**
 
-> On the practical side of things, having such knowledge could impress your date too...
+> From a practical perspective, having such knowledge could impress a date too :)
 
 The quote below provides a very nice elaboration:
 
-> "An architect once told me: When you learn about ancient cultures, the first thing people point to is their architecture, because it’s so expressive of who they were. The example they used was ancient Egypt. Take a look at the pyramids and the Sphinx, and you’ll get a good idea of how they regarded their rulers, their religion, and the qualities of the land that they drew their building materials from. The towering feats of delicate, narrative stone masonry that made up Gothic architecture, emerging in Europe in the Middle Ages, was a perfect counterpoint to its age of reverence verging on fear of divinity, during a period of grim instability. The Industrial Revolution, which re-organized the world along rational standards of machine production, inevitably birthed Modernism, which used mass-produced steel and glass to replicate this emerging order in cities. All revolutions, especially political ones, turn to architecture immediately to create their most prominent monuments. And this ability of architecture to explain its age happens whether a building is an elaborate showpiece or a banal standby." (<a href="https://studyarchitecture.com/blog/architecture-news/why-architecture-is-important/"> Source</a>)
+> "An architect once told me: When you learn about ancient cultures, the first thing people point to is their architecture, because it’s so expressive of who they were. The example they used was ancient Egypt. Take a look at the pyramids and the Sphinx, and you’ll get a good idea of how they regarded their rulers, their religion, and the qualities of the land that they drew their building materials from. The towering feats of delicate, narrative stone masonry that made up Gothic architecture, emerging in Europe in the Middle Ages, was a perfect counterpoint to its age of reverence verging on fear of divinity, during a period of grim instability. The Industrial Revolution, which re-organized the world along rational standards of machine production, inevitably birthed Modernism, which used mass-produced steel and glass to replicate this emerging order in cities. All revolutions, especially political ones, turn to architecture immediately to create their most prominent monuments. And this ability of architecture to explain its age happens whether a building is an elaborate showpiece or a banal standby." (<a href="https://studyarchitecture.com/blog/architecture-news/why-architecture-is-important/">Source</a>)
 
 
 ### Goal
@@ -42,14 +42,18 @@ Therefore, our team sought to develop a multi-class convolutional neural network
 
 ### Dataset
 
-We used 10,113 images of buildings from 25 architectural styles (class labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset"> Source</a>)
+We used 10,113 images of buildings from 25 architectural styles (class labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset">Source</a>)
 
-The images were a mix of images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper </a>.
+The images were a mix of images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper</a>.
 
-<img src="README_images/data_snippet.jpg" width="700" height="400">
-*A snippet of the dataset*
+<p align="center">
+  <br>
+  <img src="README_images/data_snippet.jpg" width="1000" height="300">
+  <br><br>
+  <em>A snippet of the dataset</em><br><br>
+</p>
 
-We also performed data augmentation (i.e., making slight modifications to images, such as rotations, to generate more synthetic data). This is a regularization technique that can help reduce overfitting when training our model later.
+We also performed data augmentation (i.e., making slight modifications to images, such as vertical and horizontal flips, to generate more synthetic data). This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
@@ -58,8 +62,21 @@ We used the ResNet-18 CNN model.
 
 > *Rationale:* Deeper neural networks are more difficult to train. Residual learning can help ease the training of networks that are substantially deeper than those used previously. In residual learning, the layers in a CNN are reformulated as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. Empirical evidence suggests that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. 
 
+1. Partially Frozen Layers 
+This technique, as obvious as it may sound is to cut down on the computational time for training while losing not much on the accuracy side.
+
+Techniques like DropOut and Stochastic depth have already demonstrated how to efficiently train the networks without the need to train every layer.
+
+Freezing a layer, too, is a technique to accelerate neural network training by progressively freezing hidden layers.
+
+2. Fine-tuned
+
+3. ResNet from scratch (training took too long)
+
 
 ### Training Procedure
+
+Fix Class Imblance by changing the loss function
 
 Cyclic Learning Rate
 
