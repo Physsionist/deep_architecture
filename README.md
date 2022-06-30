@@ -102,6 +102,8 @@ As the plots below show, our trained model yielded decent values on metrics on t
 
 <img src="README_images/model_train_val_accuracy.jpg" width="600" height="300">
 
+The accuracy of the fine-tuned model (~ 85%) is higher than that of the model with partially frozen weights (~ 80%). This is not unexpected -- the real question is whether the ~ 5% reduction in accuracy is a significant tradeoff, considering that the latter model trained much faster.
+
 
 ### Training Loss vs epoch count
 
