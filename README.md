@@ -85,11 +85,12 @@ Cyclic Learning Rate
 
 ## Results
 
-It worked.
+As the plots below show, our trained model yielded good metrics on the validation data:
 
 ### Accuracy vs epoch count
 
-*Insert graph here*
+<img src="README_images/model_train_val_results.jpg" width="500" height="300">
+
 
 ### Training Loss vs epoch count
 
