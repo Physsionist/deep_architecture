@@ -53,35 +53,45 @@ The images were a mix of images scraped from Google Images and the dataset from 
   <em>A snippet of the dataset</em><br><br>
 </p>
 
-We also performed data augmentation (i.e., making slight modifications to images, such as vertical and horizontal flips, to generate more synthetic data). This is a regularization technique that can help reduce overfitting when training our model later.
+We also performed data augmentation (i.e., making slight modifications to images, such as vertical and horizontal flips, to synthesize more data). This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
+
+#### Architecture
 
 We used the ResNet-18 CNN model. 
 
 > *Rationale:* Deeper neural networks are more difficult to train. Residual learning can help ease the training of networks that are substantially deeper than those used previously. In residual learning, the layers in a CNN are reformulated as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. Empirical evidence suggests that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. 
 
-1. Partially Frozen Layers 
-This technique, as obvious as it may sound is to cut down on the computational time for training while losing not much on the accuracy side.
+#### Initialization
 
-Techniques like DropOut and Stochastic depth have already demonstrated how to efficiently train the networks without the need to train every layer.
+We initialized the parameters of our model in three (or two, really) ways:
 
-Freezing a layer, too, is a technique to accelerate neural network training by progressively freezing hidden layers.
+1. Froze *some* layers from a pretrained model
 
-2. Fine-tuned
+> This would reduce the training time without losing too much accuracy. (Similar to drop-out, which has been shown empirically to accelerate and improve the efficiency of the training process without having every layer in a neural network to be trained.)
 
-3. ResNet from scratch (training took too long)
+2. Fine-tuned the same pretrained model
+
+> This would, ostensibly, help tailor the weights of the model more toward the data points in our dataset.
+
+3. Randomly initialize the weights ("train from scratch") 
+
+> This approach was eventually abandoned due to the excessive amount of time that passed during training. (Moral of the story: transfer learning *is* key!)
 
 
 ### Training Procedure
 
-In the training process, we 
-Fix Class Imblance by changing the loss function
+The training process involved two noteable "deviations" from the typical training procedure:
 
-Cyclic Learning Rate
+1. We used a modified loss function (by weighting classes unequally). 
 
-> *Rationale:* Changing the learning rate periodically for stochastic gradient descent can improve performance while also cutting down on training time. 
+> *Rationale:* This helps account for the class imbalance present in the dataset.
+
+2. We used a cyclic learning rate.
+
+> *Rationale:* Changing the learning rate periodically for stochastic gradient descent has been shown to improve performance while also cutting down on training time. 
 
 
 ## Results
