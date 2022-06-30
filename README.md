@@ -83,15 +83,15 @@ We initialized the parameters of our model in three (or two, really...) ways:
 
 1. Froze *some* layers (all except the last) from a pretrained model
 
-> This would reduce the training time without losing too much accuracy. (Similar to drop-out, which has been shown empirically to accelerate and improve the efficiency of the training process without having every layer in a neural network to be trained.)
+> *Rationale:* This would reduce the training time without losing too much accuracy. (Similar to drop-out, which has been shown empirically to accelerate and improve the efficiency of the training process without having every layer in a neural network to be trained.)
 
 2. Fine-tuned the same pretrained model
 
-> This would, ostensibly, help tailor the weights of the model more toward the data points in our dataset.
+> *Rationale:* This would, ostensibly, help tailor the weights of the model more toward the data points in our dataset.
 
 3. Randomly initialize the weights ("train from scratch") 
 
-> This approach was eventually abandoned due to the excessive amount of time that passed during training. (Moral of the story: transfer learning *is* key!)
+> *Note:* This approach was eventually abandoned due to the excessive amount of time that passed during training. (Moral of the story: transfer learning *is* key!)
 
 
 ### Training Procedure
