@@ -53,7 +53,7 @@ The images were a mix of images scraped from Google Images and the dataset from 
   <em>A snippet of the dataset</em><br><br>
 </p>
 
-We also performed data augmentation (e.g., making slight modifications to images, such as vertical/horizontal flips and adding Gaussian noise, to synthesize more data). This is a regularization technique that can help reduce overfitting when training our model later.
+We also performed data augmentation (i.e., making slight modifications to images, such as vertical/horizontal flips and adding Gaussian noise, to synthesize more data). This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
@@ -66,7 +66,7 @@ We used the ResNet-18 CNN model.
 
 #### Initialization
 
-We initialized the parameters of our model in three (or two, really) ways:
+We initialized the parameters of our model in three (or two, really...) ways:
 
 1. Froze *some* layers (all except the last) from a pretrained model
 
@@ -102,9 +102,9 @@ As the plots below show, our trained model yielded decent values on metrics on t
 
 <img src="README_images/model_train_val_accuracy.jpg" width="600" height="300">
 
-The accuracy of the fine-tuned model (~ 85%) is higher than that of the model with partially frozen weights (~ 80%). This is not unexpected –– the real question is whether the ~ 5% reduction in accuracy is a worthwhile trade-off.  We say yes considering that the fine tuned model only seemed to take twice as long to train (~ 6 minutes per epoch vs ~ 3 minutes per epoch).  
+The accuracy of the fine-tuned model (~ 85%) is higher than that of the model with partially frozen weights (~ 80%). This is not surprising –– the real question is whether the ~ 5% reduction in accuracy is a worthwhile trade-off.  We say yes considering that the fine-tuned model only seemed to take twice as long to train (~ 6 minutes per epoch vs ~ 3 minutes per epoch).  
 
-Both models acheived fairly high accuracy for a small-scale computer vision multiclassification problem.  In an earlier attempted model with 25 classes, we were only able to acheive 50% accuracy but given the scale our work we don't see this as a huge negative either.  Instead, seeing as we can achieve high accuracy on a smaller problem, shows potential to achieve higher accuracy given more data (and a possible deeper model?).  
+Both models achieved fairly high accuracy levels for a small-scale computer vision multi-class classification problem.  In an earlier attempted model with 25 classes, we were only able to achieve 50% accuracy (given the scale our work, we don't see this as a huge negative either).  This suggests that we could potentially achieve even higher accuracy levels if provided more data (and a deeper model, possibly).  
 
 
 ### Training Loss vs epoch count
