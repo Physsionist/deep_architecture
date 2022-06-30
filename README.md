@@ -42,9 +42,12 @@ Therefore, our team sought to develop a multi-class convolutional neural network
 
 ### Dataset
 
-We used 10,113 images of buildings from 25 architectural styles (class labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset">Source</a>)
+The original source dataset consisted of 10,113 images of buildings from 25 architectural styles (class labels). (<a href="https://www.kaggle.com/datasets/dumitrux/architectural-styles-dataset">Source</a>)
 
 The images were a mix of images scraped from Google Images and the dataset from <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39"> this paper</a>.
+
+However, we ended up using only a subset of the dataset (limited to 5 architectural styles) because training with all 25 classes seemed to take a very long time and the improvement in the accuracy was too gradual (accuracy was ~ 50% after 5 epochs).
+
 
 <p align="center">
   <br>
@@ -53,7 +56,17 @@ The images were a mix of images scraped from Google Images and the dataset from 
   <em>A snippet of the dataset</em><br><br>
 </p>
 
-We also performed data augmentation (i.e., making slight modifications to images, such as vertical/horizontal flips and adding Gaussian noise, to synthesize more data). This is a regularization technique that can help reduce overfitting when training our model later.
+#### Preprocessing
+
+We basically made two types of modifications to the image data:
+
+1. Scaled all of the images to the same pixel dimensions (256 x 256).
+
+> To ensure consistency with the typical input dimensions of ResNet.
+
+2. (Data Augmentation) Sythesized more image data by performing vertical/horizontal flips and adding Gaussian noise.
+
+> This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
@@ -111,15 +124,18 @@ Both models achieved fairly high accuracy levels for a small-scale multi-class i
 
 <img src="README_images/model_train_val_loss.jpg" width="600" height="300">
 
+The cross-entropy loss values for both models seem to hover around 0.001, which is desirable for a small-scale multi-class image classification problem. Again, this indicates potential for an undertaking on a larger scale.
+
 
 ## Conclusion
 
+We believe that better results could be achieved on the whole dataset (i.e., all 25 architectural styles utilized) with more (training) time and more sophisticated model architectures. Regardless of whether all 25 class labels are used, there are some more ways to extend this project, including:
+
+- Getting more data (i.e., higher sample size)
+- Implementing more <a href="https://link.springer.com/chapter/10.1007/978-3-319-10590-1_39">data augmentation techniques</a> (e.g., blurring, translation, etc.)
+- Trying different sizes and scales of the images
+
+
+### The Big Picture
+
 Identifying the architectural style of a building can be a fun and meaningful activity, since it can satisfy our natural curiosity about the past. A possible extension of this project could be to incorporate our trained model into a building architecture discovery application –– similar to other applications such as Pokemon Go (pokemon discovery) and <a href="https://apps.apple.com/us/app/shazam-music-discovery/id284993459"> Shazam</a> (music discovery).
-
-
-<!-- **Requirements**
-It must contain a nice notebook walking through the code of your project
-Any code/scripts/models written/developed for the project
-Slides for your presentation
-A ReadMe that is 1) neat 2) clearly explains the project, the goal, and the outcome 3) has at least one visualization/picture of some kind
-All of these things must be easy to find in the GitHub from the ReadMe -->
