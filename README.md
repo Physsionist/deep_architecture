@@ -120,7 +120,7 @@ The accuracy of the fine-tuned model (~ 85%) is higher than that of the model wi
 Both models achieved fairly high accuracy levels for a small-scale multi-class image classification problem.  In an earlier attempted model with 25 classes, we were only able to achieve 50% accuracy (given the scale our work, we don't see this as a huge negative either).  This suggests that we could potentially achieve even higher accuracy levels if provided more data (and a deeper model, possibly).  
 
 
-### Training Loss vs epoch count
+### Loss vs epoch count
 
 <img src="README_images/model_train_val_loss.jpg" width="600" height="300">
 
