@@ -53,7 +53,7 @@ The images were a mix of images scraped from Google Images and the dataset from 
   <em>A snippet of the dataset</em><br><br>
 </p>
 
-We also performed data augmentation (i.e., making slight modifications to images, such as vertical and horizontal flips, to synthesize more data). This is a regularization technique that can help reduce overfitting when training our model later.
+We also performed data augmentation (e.g., making slight modifications to images, such as vertical/horizontal flips and adding Gaussian noise, to synthesize more data). This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
