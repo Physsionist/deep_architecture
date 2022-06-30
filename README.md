@@ -62,11 +62,11 @@ We basically made two types of modifications to the image data:
 
 1. Scaled all of the images to the same pixel dimensions (256 x 256).
 
-> To ensure consistency with the typical input dimensions of ResNet.
+> *Rationale:* To ensure consistency with the typical input dimensions of ResNet.
 
 2. (Data Augmentation) Sythesized more image data by performing vertical/horizontal flips and adding Gaussian noise.
 
-> This is a regularization technique that can help reduce overfitting when training our model later.
+> *Rationale:* This is a regularization technique that can help reduce overfitting when training our model later.
 
 
 ### Model
@@ -83,7 +83,7 @@ We initialized the parameters of our model in three (or two, really...) ways:
 
 1. Froze *some* layers (all except the last) from a pretrained model
 
-> *Rationale:* This would reduce the training time without losing too much accuracy. (Similar to drop-out, which has been shown empirically to accelerate and improve the efficiency of the training process without having every layer in a neural network to be trained.)
+> *Rationale:* This would reduce the training time without losing too much accuracy. (Similar to drop-out, which has been demonstrated to accelerate the training process by not requiring every layer in a neural network to be trained.)
 
 2. Fine-tuned the same pretrained model
 
