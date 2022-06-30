@@ -27,7 +27,7 @@ This, hopefully, illustrates why knowing the architectural style of a building i
 
 > From a practical perspective, having such knowledge could impress a date too :)
 
-The quote below provides a very nice elaboration:
+The excerpt below provides a very nice elaboration:
 
 > "An architect once told me: When you learn about ancient cultures, the first thing people point to is their architecture, because it’s so expressive of who they were. The example they used was ancient Egypt. Take a look at the pyramids and the Sphinx, and you’ll get a good idea of how they regarded their rulers, their religion, and the qualities of the land that they drew their building materials from. The towering feats of delicate, narrative stone masonry that made up Gothic architecture, emerging in Europe in the Middle Ages, was a perfect counterpoint to its age of reverence verging on fear of divinity, during a period of grim instability. The Industrial Revolution, which re-organized the world along rational standards of machine production, inevitably birthed Modernism, which used mass-produced steel and glass to replicate this emerging order in cities. All revolutions, especially political ones, turn to architecture immediately to create their most prominent monuments. And this ability of architecture to explain its age happens whether a building is an elaborate showpiece or a banal standby." (<a href="https://studyarchitecture.com/blog/architecture-news/why-architecture-is-important/">Source</a>)
 
@@ -76,6 +76,7 @@ Freezing a layer, too, is a technique to accelerate neural network training by p
 
 ### Training Procedure
 
+In the training process, we 
 Fix Class Imblance by changing the loss function
 
 Cyclic Learning Rate
@@ -85,16 +86,16 @@ Cyclic Learning Rate
 
 ## Results
 
-As the plots below show, our trained model yielded good metrics on the validation data:
+As the plots below show, our trained model yielded decent values on metrics on the validation data:
 
 ### Accuracy vs epoch count
 
-<img src="README_images/model_train_val_results.jpg" width="500" height="300">
+<img src="README_images/model_train_val_accuracy.jpg" width="600" height="300">
 
 
 ### Training Loss vs epoch count
 
-*Insert graph here*
+<img src="README_images/model_train_val_loss.jpg" width="600" height="300">
 
 
 ## Conclusion
